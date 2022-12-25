@@ -1,0 +1,10 @@
+
+CREATE TABLE blogs( 
+   id int, 
+   title varchar(50), 
+   description varchar(255) 
+);
+
+
+INSERT INTO blogs (title, description)
+VALUES ('Card title', 'This card has supporting text below as a natural lead-in to additional content.');
